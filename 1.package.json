@@ -1,0 +1,42 @@
+{
+    "name": "1-webpack",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "webpack-dev-server --open --host 127.0.0.1 --port 9999",
+        "build": "webpack -p"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "jquery": "^3.5.1",
+        "vue": "^2.6.11"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.10.5",
+        "@babel/plugin-proposal-class-properties": "^7.10.4",
+        "@babel/plugin-transform-runtime": "^7.10.5",
+        "@babel/preset-env": "^7.10.4",
+        "@babel/runtime": "^7.10.5",
+        "autoprefixer": "^9.8.5",
+        "babel-loader": "^8.1.0",
+        "css-loader": "^3.6.0",
+        "file-loader": "^6.0.0",
+        "html-webpack-plugin": "^4.3.0",
+        "min-css-extract-plugin": "xxx",
+        "happypack": "xxx",
+        "less": "^3.12.2",
+        "less-loader": "^6.2.0",
+        "postcss-loader": "^3.0.0",
+        "style-loader": "^1.2.1",
+        "url-loader": "^4.1.0",
+        "vue-loader": "^15.9.3",
+        "vue-template-compiler": "^2.6.11",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.0"
+    }
+}
